@@ -1,8 +1,12 @@
+<div align="center">
+
 # BDAA Upmixing Suite
 
 A professional macOS application for converting stereo audio files to various surround sound formats including PCM, Dolby Atmos, and DTS Master Audio.
 
 ![BDAA Upmixing Suite Screenshot](screenshot.png)
+
+</div>
 
 ## Features
 
