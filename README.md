@@ -102,7 +102,15 @@ The application intelligently restricts file format options based on your output
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project uses a proprietary license with source code access. See the LICENSE file for complete terms.
+
+**Quick Summary:**
+- ✅ Source code access: Granted
+- ✅ Modification for personal/internal use: Allowed  
+- ❌ Redistribution: Prohibited without permission
+- ❌ Commercial resale: Prohibited without a paid license
+
+For commercial licensing inquiries: Retrowrangler@homemail.com
 
 ## Acknowledgments
 
