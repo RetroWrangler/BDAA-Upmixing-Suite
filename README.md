@@ -4,7 +4,9 @@
 
 A professional macOS application for converting stereo audio to enhanced surround sound formats with advanced spatial processing and synthetic height channel simulation.
 
-![BDAA Upmixing Suite Screenshot](screenshot.png)
+![BDAA Upmixing Suite Screenshot](screenshot1.png)
+
+![BDAA Upmixing Suite Interface](screenshot2.png)
 
 </div>
 
