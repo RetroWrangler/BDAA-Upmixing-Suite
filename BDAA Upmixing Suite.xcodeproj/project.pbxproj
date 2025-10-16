@@ -235,6 +235,7 @@
 			files = (
 				8B1CDEC32E57E88F0023A2D8 /* Preview Assets.xcassets in Resources */,
 				8B1CDEBF2E57E88F0023A2D8 /* Assets.xcassets in Resources */,
+				8B1CDEE52E57E9000023A2D8 /* ffmpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
