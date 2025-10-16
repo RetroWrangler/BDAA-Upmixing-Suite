@@ -92,6 +92,10 @@ The application intelligently restricts file format options based on your output
 - **DTS Enhanced Formats** (7.1 Enhanced, 7.1.4 :X Ready): Only DTS (.dts) available
 - **THX Formats** (7.1 Certified, 7.1.4 Spatial Audio): FLAC, ALAC, WAV, AIFF available
 
+## Known Issues
+
+⚠️ **AI Separation**: AI-powered source separation functionality is not yet implemented. While the application includes bundled Demucs models and supporting libraries, this feature is not currently accessible through the user interface and requires future development to become functional.
+
 ## Technical Details
 
 ### Enhanced Audio Processing
