@@ -11,7 +11,7 @@ A professional macOS application for converting stereo audio to enhanced surroun
 ## Features
 
 ### 🎵 Enhanced Audio Processing
-- **PCM 2.0** - Stereo audio (no upmixing)
+- **PCM 2.0** - Stereo audio (intelligently downmixes multichannel sources to stereo)
 - **PCM 5.1** - Enhanced 5.1 surround with spatial processing
 - **PCM 7.1** - Advanced 7.1 surround with enhanced imaging
 - **Atmos Ready 7.1.4** - 7.1.4 compatible with synthetic height channels
@@ -36,6 +36,7 @@ A professional macOS application for converting stereo audio to enhanced surroun
 - **ALAC** - Apple Lossless Audio Codec
 - **WAV** - Uncompressed audio
 - **AIFF** - Audio Interchange File Format
+- **MKA** - Matroska Audio (supports multichannel PCM and compressed audio)
 - **DTS** - For DTS 7.1 Enhanced output
 - **TrueHD** - For TrueHD 7.1 Spatial output
 
@@ -87,10 +88,10 @@ This warning appears because the app is not code-signed by an Apple Developer ID
 
 The application intelligently restricts file format options based on your output format selection:
 
-- **PCM Formats** (2.0, 5.1, 7.1) + **Atmos Ready 7.1.4**: FLAC, ALAC, WAV, AIFF available
+- **PCM Formats** (2.0, 5.1, 7.1) + **Atmos Ready 7.1.4**: FLAC, ALAC, WAV, AIFF, MKA available
 - **TrueHD Formats** (7.1 Spatial Enhanced, 7.1.4 Enhanced): Only TrueHD (.thd) available
 - **DTS Enhanced Formats** (7.1 Enhanced, 7.1.4 :X Ready): Only DTS (.dts) available
-- **THX Formats** (7.1 Certified, 7.1.4 Spatial Audio): FLAC, ALAC, WAV, AIFF available
+- **THX Formats** (7.1 Certified, 7.1.4 Spatial Audio): FLAC, ALAC, WAV, AIFF, MKA available
 
 ## Known Issues
 
@@ -122,6 +123,7 @@ The application intelligently restricts file format options based on your output
 | ALAC | .m4a | alac | Apple ecosystem, PCM/THX formats |
 | WAV | .wav | pcm_s32le | Universal compatibility, PCM/THX formats |
 | AIFF | .aiff | pcm_s32be | Pro audio workflows, PCM/THX formats |
+| MKA | .mka | varies | Flexible container, supports multichannel |
 | DTS | .dts | dca | Enhanced spatial DTS, DTS :X Ready |
 | TrueHD | .thd | truehd | Spatial surround content, Atmos Ready |
 
